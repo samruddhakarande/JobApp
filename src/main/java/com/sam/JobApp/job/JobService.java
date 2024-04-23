@@ -8,4 +8,6 @@ public interface JobService {
     Job postNewJob(Job job);
     Job findJobById(long id);
     Boolean deleteJobById(long id);
+
+    Job updateJob(long id, Job job);
 }
